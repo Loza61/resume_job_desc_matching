@@ -16,7 +16,7 @@ import numpy as np
 import requests
 import PyPDF2
 import re
-
+import os
 # sample articles data
 articles = pd.read_csv('data.csv')
 print(articles.head())
